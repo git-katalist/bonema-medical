@@ -1,11 +1,14 @@
 const withImages = require("next-images");
 
-module.exports = withImages({
-    future: {
-        webpack5: true,
-    },
+const withPlugins = require("next-compose-plugins");
+
+const nextConfig = {
     images: {
-        path: "/",
         loader: "imgix",
+        path: "/",
     },
-});
+    basePath: process.env.NEXT_PUBLIC_BASE_PATH,
+    assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH,
+};
+
+module.exports = withPlugins([[withImages]], nextConfig);
