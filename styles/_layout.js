@@ -40,7 +40,8 @@ const NavWrapper = styled.nav`
 `;
 
 const Footer = styled.footer`
-    background-color: yellow;
+    background-color: #0a3b61;
+    color: #f2f5f9;
 `;
 
 export { Container, NavWrapper, Wrapper, Header, Main, Footer };
