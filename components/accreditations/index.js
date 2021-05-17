@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Accreditations } from "./styles";
 
 import Icasa from "../../public/accreditors/icasa-logo.png";
@@ -8,7 +9,34 @@ import Ungm from "../../public/accreditors/ungm-logo.png";
 import Sahpra from "../../public/accreditors/sahpra-logo.png";
 import { Container } from "../../styles/_layout";
 
-const accreds = [Icasa, Iso, Psira, Saia, Ungm, Sahpra];
+const accreds = [
+    {
+        image: Icasa,
+        name: "Icasa",
+        URL: "",
+    },
+    { image: Iso, name: "", URL: "" },
+    {
+        image: Psira,
+        name: "",
+        URL,
+    },
+    {
+        image: Saia,
+        name: "",
+        URL: "",
+    },
+    {
+        image: Ungm,
+        name: "",
+        URL: "",
+    },
+    {
+        image: Sahpra,
+        name: "",
+        URL: "",
+    },
+];
 
 const Accreds = () => {
     return (
@@ -20,7 +48,12 @@ const Accreds = () => {
                 <div className="items">
                     {accreds.map((item, index) => (
                         <div className="item" key={index}>
-                            <img src={item} alt="Saia" />
+                            <Image
+                                src={item.image}
+                                width={640}
+                                height={640}
+                                alt={item.name}
+                            />
                         </div>
                     ))}
                 </div>

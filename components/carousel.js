@@ -102,17 +102,6 @@ const Carousel = (props) => {
                             </p>
                         </div>
                     </div>
-                    {/* <div className="keen-slider__slide number-slide6">
-                        <div className="content">
-                            <h1>Bonema Medical</h1>
-                            <p>
-                                We strive to improve access to better, safer and
-                                cost effective health care. Our client portfolio
-                                includes Netcare Group, Louis Pasteur, Private
-                                and Government hospitals.
-                            </p>
-                        </div>
-                    </div> */}
                 </div>
                 {slider && (
                     <>

@@ -5,7 +5,10 @@ export default function FooterElement() {
         <Footer>
             <Container>
                 <div style={{ textAlign: "center", padding: "1rem 0rem" }}>
-                    &copy; Copyrigh {new Date().getFullYear()}
+                    <p>
+                        Copyright &copy; {new Date().getFullYear()} Bonema
+                        Health. All rights reserved.
+                    </p>
                 </div>
             </Container>
         </Footer>

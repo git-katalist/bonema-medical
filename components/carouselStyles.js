@@ -18,7 +18,7 @@ const CarouselContainer = styled.div`
 
     .number-slide1 {
         background: url("/bike-lesson.jpg");
-        background-position: center;
+        background-position: top center;
         background-size: cover;
 
         &::after {

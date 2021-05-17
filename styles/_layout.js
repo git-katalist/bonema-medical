@@ -9,12 +9,13 @@ const Wrapper = styled.div`
 
 const Main = styled.main`
     /* background-color: teal; */
+    width: 100%;
     padding-top: 8vh;
     min-height: calc(100vh - 43px);
 `;
 
 const Header = styled.header`
-    /* padding: 0 1.74rem; */
+    width: 100%;
     position: fixed;
     background-color: #f4f5f5;
     z-index: 9999;
@@ -23,6 +24,7 @@ const Header = styled.header`
     box-shadow: 0px 1px 10px #444;
 `;
 const Container = styled.div`
+    width: 100%;
     max-width: 90rem;
     margin: 0 auto;
     padding: 0 0.9rem;
