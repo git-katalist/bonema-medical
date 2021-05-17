@@ -138,30 +138,40 @@ const CarouselContainer = styled.div`
 
         & .content {
             width: 60%;
-            height: 60%;
+            height: 30%;
             display: grid;
-            align-items: space-between;
+            /* align-items: space-between;
             justify-items: center;
-            place-items: center;
+            place-items: center; */
             h1 {
                 width: 90%;
-                font-size: 28px;
+                font-size: 20px;
 
                 @media screen and (min-width: 960px) {
-                    width: 90%;
+                    width: 100%;
+                    font-size: 28px;
                 }
             }
             p {
-                font-size: 18px;
-                line-height: 2;
                 width: 90%;
                 display: grid;
-                justify-items: center;
-                align-items: center;
+                font-size: 14px;
+                line-height: 1.5;
+                /* justify-items: center;
+                align-items: center; */
 
                 @media screen and (min-width: 960px) {
+                    font-size: 18px;
+                    line-height: 2;
                     width: 40%;
+                    justify-content: start;
                 }
+            }
+
+            @media screen and (min-width: 64rem) {
+                width: 90%;
+                height: 60%;
+                margin-left: 10rem;
             }
         }
     }

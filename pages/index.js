@@ -9,6 +9,7 @@ import Carousel from "../components/carousel";
 import Showcase from "../components/showCase";
 import { Container } from "../styles/_layout";
 import Suppliers from "../components/suppliers";
+import Accreds from "../components/accreditations";
 
 export default function Home() {
     console.log(softwave);
@@ -134,6 +135,7 @@ export default function Home() {
                     Australia and United States of America.
                 </div>
             </Container>
+            <Accreds />
         </>
     );
 }
