@@ -169,9 +169,9 @@ const CarouselContainer = styled.div`
             }
 
             @media screen and (min-width: 64rem) {
-                width: 90%;
+                width: 90rem;
                 height: 60%;
-                margin-left: 10rem;
+                margin-left: 1.74rem;
             }
         }
     }
