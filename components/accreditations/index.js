@@ -2,7 +2,11 @@ import Image from "next/image";
 import { Accreditations } from "./styles";
 
 import Icasa from "../../public/accreditors/icasa-logo.png";
-import Iso from "../../public/accreditors/iso-logo.png";
+// import Iso from "../../public/accreditors/iso-logo.png";
+import Iso9001 from "../../public/accreditors/iso-9001-logo.png";
+import Iso13485 from "../../public/accreditors/iso-13485-logo.png";
+import Iso14001 from "../../public/accreditors/iso-14001-logo.png";
+import Iso45001 from "../../public/accreditors/iso-45001-logo.png";
 import Psira from "../../public/accreditors/psira-logo.png";
 import Saia from "../../public/accreditors/saia-logo.png";
 import Ungm from "../../public/accreditors/ungm-logo.png";
@@ -15,7 +19,11 @@ const accreds = [
         name: "Icasa",
         URL: "",
     },
-    { image: Iso, name: "", URL: "" },
+    // { image: Iso, name: "", URL: "" },
+    { image: Iso9001, name: "", URL: "" },
+    { image: Iso13485, name: "", URL: "" },
+    { image: Iso14001, name: "", URL: "" },
+    { image: Iso45001, name: "", URL: "" },
     {
         image: Psira,
         name: "",

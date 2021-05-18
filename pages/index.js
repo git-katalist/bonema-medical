@@ -11,11 +11,13 @@ import { Container } from "../styles/_layout";
 import Suppliers from "../components/suppliers/suppliers";
 import Accreds from "../components/accreditations";
 import AboutBonema from "../components/about/aboutBonema";
+import { HomeNavigation } from "../components/layout/navigation";
 
 export default function Home() {
     return (
         <>
-            <div id="home">
+            <HomeNavigation />
+            <div id="home" style={{ paddingTop: "8vh" }}>
                 <Carousel />
             </div>
 
@@ -33,9 +35,7 @@ export default function Home() {
                             />
                         </div>
                         <div className="description">
-                            {!!item.description
-                                ? `${item.description.substr(0, 100)}`
-                                : ""}
+                            {!!item.description ? `${item.description}` : " "}
                         </div>
                         <ul className="product-list">
                             {item.products.map((sub, index) => (

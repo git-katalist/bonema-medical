@@ -137,8 +137,8 @@ const CarouselContainer = styled.div`
         position: relative;
 
         & .content {
-            width: 60%;
-            height: 30%;
+            width: 70%;
+            height: 40%;
             display: grid;
             /* align-items: space-between;
             justify-items: center;

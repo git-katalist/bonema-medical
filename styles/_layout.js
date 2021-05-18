@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Link from "next/link";
 
 const Wrapper = styled.div`
     /* display: grid;
@@ -10,7 +11,7 @@ const Wrapper = styled.div`
 const Main = styled.main`
     /* background-color: teal; */
     width: 100%;
-    padding-top: 8vh;
+    /* padding-top: 8vh; */
     min-height: calc(100vh - 43px);
 `;
 
@@ -20,7 +21,7 @@ const Header = styled.header`
     background-color: #f4f5f5;
     z-index: 9999;
     width: 100%;
-    height: 6vh;
+    height: 8vh;
     box-shadow: 0px 1px 10px #444;
 `;
 const Container = styled.div`
@@ -46,4 +47,6 @@ const Footer = styled.footer`
     color: #f2f5f9;
 `;
 
-export { Container, NavWrapper, Wrapper, Header, Main, Footer };
+const PageLink = styled(Link)``;
+
+export { Container, NavWrapper, Wrapper, Header, Main, Footer, PageLink };

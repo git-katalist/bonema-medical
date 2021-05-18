@@ -146,18 +146,16 @@ export const GlobalStyle = createGlobalStyle`
 		} */
 		/* padding-left:50px; */
 		li{
-			padding-left: 30px;
+			padding: .97rem;
 			padding-bottom:5px;
 			border-bottom: 1px solid green;
 			cursor: pointer;
 			padding-top:10px;
+			font-size:.9rem;
+			text-transform: capitalize;
 
 			&:hover{
 				background-color: #f5f9f9;
-			}
-
-			 & + li{
-/* padding-top:10px; */
 			}
 
 			span{
@@ -171,17 +169,6 @@ export const GlobalStyle = createGlobalStyle`
   margin-right:5px;
 			}
 
-			/* &::marker{
-				content:'↣';
-				display: inline-block;
-				width:20px;
-				height:20px;
-				padding: 5px 5px;
-				place-items: center;
-				background-color: green;
-				color: green;
-
-			} */
 		}
 		padding-bottom:3rem;
 		}
