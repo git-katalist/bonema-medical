@@ -49,7 +49,7 @@ export default function Details() {
                                     <li>Tel: +27 11 655 4190</li>
                                     <li>Accounts : 086 126 6362</li>
                                     <li>
-                                        EMail{" "}
+                                        EMail :
                                         <span>
                                             <a href="mailto:info@bonema.co.za">
                                                 info@bonema.co.za
@@ -96,7 +96,7 @@ export default function Details() {
                                     <li>Tel: +267393 2350</li>
                                     <li>Tel: +267631 6323</li>
                                     <li>
-                                        EMail{" "}
+                                        EMail :
                                         <span>
                                             <a href="mailto:natasha@bonema.co.za">
                                                 natasha@bonema.co.za

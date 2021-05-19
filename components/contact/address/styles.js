@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 const Contact = styled.section`
-    padding: 0 1.97rem;
     .buttons {
         display: flex;
         gap: 2rem;
@@ -57,16 +56,27 @@ const Contact = styled.section`
 
     .map {
         width: 100%;
-        height: 50vh;
+        height: 60vh;
         margin-top: 5vh;
         display: grid;
         place-items: center;
+        padding: 1rem 0 3rem;
+        background-color: white;
+        box-shadow: 0px 1px 10px #444;
+
+        .container {
+            width: 100%;
+            max-width: 90rem;
+            height: 100%;
+            max-height: 50vh;
+        }
     }
 `;
 
 const Information = styled.div`
     .container {
         max-width: 90rem;
+        padding: 1.97rem;
         margin: auto;
         padding-top: 5rem;
     }
@@ -116,6 +126,12 @@ const Information = styled.div`
                 @media screen and (min-width: 640px) {
                     display: none;
                 }
+            }
+
+            span a {
+                text-decoration: none;
+                color: #29abe2;
+                margin-left: 0.5rem;
             }
         }
 
