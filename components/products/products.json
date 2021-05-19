@@ -1,6 +1,6 @@
 [
     {
-        "title": "masks",
+        "title": "Face Masks",
         "image": "/Clinical_Masks.png",
         "products": [
             { "name": "KN95 Mask", "spec": "CE / FDA" },
@@ -11,7 +11,7 @@
         ]
     },
     {
-        "title": "ventilators",
+        "title": "Ventilators",
         "image": "/mechanical_ventilator.png",
         "products": [
             { "name": "Respiratory Ventilator VG70" },
@@ -29,7 +29,7 @@
         ]
     },
     {
-        "title": "gloves",
+        "title": "Mediacl Gloves",
         "image": "/medical_gloves.png",
         "products": [
             {
@@ -43,7 +43,7 @@
         ]
     },
     {
-        "title": "softwave",
+        "title": "Softwave",
         "image": "/sofwave_machine.png",
         "description": "Softwave is the latest technology to revitalize skin by addressing fine lines and wrinkles through innovative stimulation of the production of new collagen",
         "products": [
@@ -56,7 +56,7 @@
         ]
     },
     {
-        "title": "coveralls",
+        "title": "Coveralls",
         "image": "/surgical-disposable-gown.png",
         "description": "Disposable coveralls provide the protection of standard coveralls without the hassle of having to decontaminate used suits.",
         "products": [
@@ -71,7 +71,7 @@
         ]
     },
     {
-        "title": "Aesthetic laser",
+        "title": "Aesthetic Laser",
         "image": "/dynamis-laser.png",
         "description": "Aesthetic laser systems is driving the industry forward with new levels of innovation and performance.",
         "products": [
@@ -146,5 +146,11 @@
             { "name": "glucometers for professional use" },
             { "name": "analysers for gasometry and blood critical parameter" }
         ]
+    },
+    {
+        "title": "Much much more",
+        "image": "/much-more.jpg",
+        "description": "For any questions, do not hesitate to contact us!!",
+        "products": []
     }
 ]

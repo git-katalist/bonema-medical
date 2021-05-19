@@ -18,6 +18,21 @@ export const GlobalStyle = createGlobalStyle`
 
 	body,html{
 		height:100vh;
+
+		font-size: 14px;
+
+h1{
+	font-size: 3.5rem;
+}
+
+h3{
+	font-size: 1.5rem;
+}
+
+
+		@media screen and (min-width:64rem){
+			font-size: 16px;
+		}
 	}
 
 	/* #__next{

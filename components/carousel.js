@@ -49,57 +49,82 @@ const Carousel = (props) => {
                 <div ref={sliderRef} className="keen-slider">
                     <div className="keen-slider__slide number-slide1">
                         <div className="content">
-                            <h1>Bonema Medical</h1>
+                            <h1>
+                                Bonema <span>Medical</span>
+                            </h1>
                             <p>
                                 We strive to improve access to better, safer and
                                 cost effective health care. Our client portfolio
                                 includes Netcare Group, Louis Pasteur, Private
                                 and Government hospitals.
                             </p>
+                            <a href="/contact">
+                                <button>Contact us</button>
+                            </a>
                         </div>
                     </div>
                     <div className="keen-slider__slide number-slide2">
                         <div className="content">
-                            <h1>Bonema Medical</h1>
+                            <h1>
+                                Bonema <span>Medical</span>
+                            </h1>
                             <p>
                                 We strive to improve access to better, safer and
                                 cost effective health care. Our client portfolio
                                 includes Netcare Group, Louis Pasteur, Private
                                 and Government hospitals.
                             </p>
+                            <a href="/contact">
+                                <button>Contact us</button>
+                            </a>
                         </div>
                     </div>
                     <div className="keen-slider__slide number-slide3">
                         <div className="content">
-                            <h1>Bonema Medical</h1>
+                            <h1>
+                                Bonema <span>Medical</span>
+                            </h1>
                             <p>
                                 We strive to improve access to better, safer and
                                 cost effective health care. Our client portfolio
                                 includes Netcare Group, Louis Pasteur, Private
                                 and Government hospitals.
                             </p>
+                            <a href="/contact">
+                                <button>Contact us</button>
+                            </a>
                         </div>
                     </div>
                     <div className="keen-slider__slide number-slide4">
                         <div className="content">
-                            <h1>Bonema Medical</h1>
+                            <h1>
+                                Bonema <span>Medical</span>
+                            </h1>
                             <p>
                                 We strive to improve access to better, safer and
                                 cost effective health care. Our client portfolio
                                 includes Netcare Group, Louis Pasteur, Private
                                 and Government hospitals.
                             </p>
+                            <a href="/contact">
+                                <button>Contact us</button>
+                            </a>
                         </div>
                     </div>
                     <div className="keen-slider__slide number-slide5">
                         <div className="content">
-                            <h1>Bonema Medical</h1>
+                            <h1>
+                                Bonema <span>Medical</span>
+                            </h1>
                             <p>
                                 We strive to improve access to better, safer and
                                 cost effective health care. Our client portfolio
                                 includes Netcare Group, Louis Pasteur, Private
                                 and Government hospitals.
                             </p>
+                            <a href="/contact">
+                                <button>Contact us</button>
+                            </a>
                         </div>
                     </div>
                 </div>

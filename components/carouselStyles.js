@@ -137,7 +137,7 @@ const CarouselContainer = styled.div`
         position: relative;
 
         & .content {
-            width: 70%;
+            width: 60%;
             height: 40%;
             display: grid;
             /* align-items: space-between;
@@ -145,11 +145,18 @@ const CarouselContainer = styled.div`
             place-items: center; */
             h1 {
                 width: 90%;
-                font-size: 20px;
+                color: #f9f9f9;
+                text-shadow: 0 0.5px 1px rgba(249, 249, 249, 0.7);
+                font-size: 2rem;
+                span {
+                    color: #f2f5f9;
+                    text-shadow: 0 1px 3px #2e3191;
+                }
 
                 @media screen and (min-width: 960px) {
                     width: 100%;
-                    font-size: 28px;
+                    font-size: 3rem;
+                    color: #2e3191;
                 }
             }
             p {
@@ -168,10 +175,33 @@ const CarouselContainer = styled.div`
                 }
             }
 
+            @media screen and (min-width: 640px) {
+                width: 80%;
+                height: 60%;
+                margin-left: 2.4rem;
+            }
+
             @media screen and (min-width: 64rem) {
-                width: 90rem;
+                width: 80%;
                 height: 60%;
                 margin-left: 1.74rem;
+            }
+        }
+
+        a > button {
+            background-color: white;
+            padding: 0.4rem 1.2rem;
+            text-transform: uppercase;
+            border-radius: 2rem;
+            border: 1px solid #f2f5f9;
+            transition: all 350ms ease;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #f2f5f9;
+                border: 1px solid #ffffff;
+                transform: scale(1.02);
+                line-height: 1rem;
             }
         }
     }

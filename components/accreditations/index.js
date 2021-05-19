@@ -29,11 +29,11 @@ const accreds = [
         name: "",
         URL,
     },
-    {
-        image: Saia,
-        name: "",
-        URL: "",
-    },
+    // {
+    //     image: Saia,
+    //     name: "",
+    //     URL: "",
+    // },
     {
         image: Ungm,
         name: "",

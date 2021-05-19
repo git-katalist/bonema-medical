@@ -47,7 +47,7 @@ export default function Home() {
                                 </li>
                             ))}
                         </ul>
-                        <Link href="#">
+                        <Link href="/contact">
                             <a className="enquiry">send enquiry</a>
                         </Link>
                     </div>
