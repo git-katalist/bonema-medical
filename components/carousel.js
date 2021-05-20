@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import Link from "next/link";
 import { useKeenSlider } from "keen-slider/react";
 // import "./styles.css"
 import "keen-slider/keen-slider.min.css";
@@ -58,9 +59,11 @@ const Carousel = (props) => {
                                 includes Netcare Group, Louis Pasteur, Private
                                 and Government hospitals.
                             </p>
-                            <a href="/contact">
-                                <button>Contact us</button>
-                            </a>
+                            <Link href="/contact">
+                                <a>
+                                    <button>Contact us</button>
+                                </a>
+                            </Link>
                         </div>
                     </div>
                     <div className="keen-slider__slide number-slide2">
@@ -74,9 +77,11 @@ const Carousel = (props) => {
                                 includes Netcare Group, Louis Pasteur, Private
                                 and Government hospitals.
                             </p>
-                            <a href="/contact">
-                                <button>Contact us</button>
-                            </a>
+                            <Link href="/contact">
+                                <a>
+                                    <button>Contact us</button>
+                                </a>
+                            </Link>
                         </div>
                     </div>
                     <div className="keen-slider__slide number-slide3">
@@ -90,9 +95,11 @@ const Carousel = (props) => {
                                 includes Netcare Group, Louis Pasteur, Private
                                 and Government hospitals.
                             </p>
-                            <a href="/contact">
-                                <button>Contact us</button>
-                            </a>
+                            <Link href="/contact">
+                                <a>
+                                    <button>Contact us</button>
+                                </a>
+                            </Link>
                         </div>
                     </div>
                     <div className="keen-slider__slide number-slide4">
@@ -106,9 +113,11 @@ const Carousel = (props) => {
                                 includes Netcare Group, Louis Pasteur, Private
                                 and Government hospitals.
                             </p>
-                            <a href="/contact">
-                                <button>Contact us</button>
-                            </a>
+                            <Link href="/contact">
+                                <a>
+                                    <button>Contact us</button>
+                                </a>
+                            </Link>
                         </div>
                     </div>
                     <div className="keen-slider__slide number-slide5">
@@ -122,9 +131,11 @@ const Carousel = (props) => {
                                 includes Netcare Group, Louis Pasteur, Private
                                 and Government hospitals.
                             </p>
-                            <a href="/contact">
-                                <button>Contact us</button>
-                            </a>
+                            <Link href="/contact">
+                                <a>
+                                    <button>Contact us</button>
+                                </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
