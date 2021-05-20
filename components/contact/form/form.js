@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Form } from "./styles";
+import { useRouter } from "next/router";
 
 export default function ContactForm() {
     const [name, setName] = useState("");
@@ -7,6 +8,8 @@ export default function ContactForm() {
     const [number, setNumber] = useState("");
     const [message, setMessage] = useState("");
     const [submitted, setSubmitted] = useState(false);
+
+    const router = useRouter();
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -30,8 +33,8 @@ export default function ContactForm() {
                 console.log("Response succeeded!");
                 setSubmitted(true);
                 setName("");
-                setEmail("");
                 setNumber("");
+                setEmail("");
                 setMessage("");
             }
         });
@@ -39,7 +42,7 @@ export default function ContactForm() {
 
     return (
         <Form>
-            <form>
+            <form autoComplete="off">
                 <div className="input-group">
                     <label htmlFor="name">Name:</label>
                     <input
@@ -94,9 +97,11 @@ export default function ContactForm() {
                     ></textarea>
                 </div>
                 <input
+                    // href="/contact"
                     type="submit"
                     onClick={(e) => {
                         handleSubmit(e);
+                        router.push("/");
                     }}
                 />
             </form>
