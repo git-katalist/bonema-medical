@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Form } from "./styles";
 import { useRouter } from "next/router";
 
@@ -31,11 +31,7 @@ export default function ContactForm() {
             console.log("Response received");
             if (res.status === 200) {
                 console.log("Response succeeded!");
-                setSubmitted(true);
-                setName("");
-                setNumber("");
-                setEmail("");
-                setMessage("");
+                setSubmitted(true), router.push("/");
             }
         });
     };
@@ -101,7 +97,6 @@ export default function ContactForm() {
                     type="submit"
                     onClick={(e) => {
                         handleSubmit(e);
-                        router.push("/");
                     }}
                 />
             </form>
