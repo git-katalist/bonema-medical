@@ -12,7 +12,7 @@ export default function Contact() {
                 <div className="content">
                     <h1>
                         Bonema <br />
-                        <span>Medical</span>
+                        <span id="enquiry">Medical</span>
                     </h1>
                 </div>
             </Hero>

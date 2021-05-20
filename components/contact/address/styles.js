@@ -115,7 +115,7 @@ const Information = styled.div`
 
         .contacts {
             ::before {
-                content: "media";
+                content: "contact details";
                 display: block;
                 text-transform: capitalize;
                 font-size: 1.5rem;

@@ -59,7 +59,7 @@ const Carousel = (props) => {
                                 includes Netcare Group, Louis Pasteur, Private
                                 and Government hospitals.
                             </p>
-                            <Link href="/contact">
+                            <Link href="/contact#enquiry">
                                 <a>
                                     <button>Contact us</button>
                                 </a>
@@ -77,7 +77,7 @@ const Carousel = (props) => {
                                 includes Netcare Group, Louis Pasteur, Private
                                 and Government hospitals.
                             </p>
-                            <Link href="/contact">
+                            <Link href="/contact#enquiry">
                                 <a>
                                     <button>Contact us</button>
                                 </a>
@@ -95,7 +95,7 @@ const Carousel = (props) => {
                                 includes Netcare Group, Louis Pasteur, Private
                                 and Government hospitals.
                             </p>
-                            <Link href="/contact">
+                            <Link href="/contact#enquiry">
                                 <a>
                                     <button>Contact us</button>
                                 </a>
@@ -113,7 +113,7 @@ const Carousel = (props) => {
                                 includes Netcare Group, Louis Pasteur, Private
                                 and Government hospitals.
                             </p>
-                            <Link href="/contact">
+                            <Link href="/contact#enquiry">
                                 <a>
                                     <button>Contact us</button>
                                 </a>
@@ -131,7 +131,7 @@ const Carousel = (props) => {
                                 includes Netcare Group, Louis Pasteur, Private
                                 and Government hospitals.
                             </p>
-                            <Link href="/contact">
+                            <Link href="/contact#enquiry">
                                 <a>
                                     <button>Contact us</button>
                                 </a>
