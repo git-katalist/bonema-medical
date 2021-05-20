@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Supplier } from "./styles";
 
 import mecan from "../../public/suppliers/mecan-medical-logo.png";
-import softwave from "../../public/suppliers/softwave-logo.png";
+import sofwave from "../../public/suppliers/softwave-logo.png";
 import drop from "../../public/suppliers/1drop-logo.png";
 import biomaxima from "../../public/suppliers/biomaxima-logo.png";
 import fotona from "../../public/suppliers/fotona-logo.png";
@@ -15,8 +15,8 @@ const suppliers = [
         URL: "",
     },
     {
-        logo: softwave,
-        alt: "softwave medical logo",
+        logo: sofwave,
+        alt: "sofwave medical logo",
         URL: "",
     },
     {
