@@ -46,7 +46,7 @@ export default function Details() {
                                     <li>South Africa 1685</li>
                                 </ul>
                                 <ul className="contacts">
-                                    <li>Tel: +27 11 655 4190</li>
+                                    <li>Tel: +27 12 772 9729</li>
                                     <li>Accounts : 086 126 6362</li>
                                     <li>
                                         EMail :
